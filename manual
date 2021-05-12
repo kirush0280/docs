@@ -1,0 +1,35 @@
+mysqldump -u root utm53 17_discount_transactions_all > /tmp/17_discount_transactions_all.sql
+mysqldump -u root utm53 17_discount_transactions_iptraffic_all > /tmp/17_discount_transactions_iptraffic_all.sql
+mysqldump -u root utm53 17_payment_transactions > /tmp/17_payment_transactions.sql
+mysqldump -u root utm53 17_tel_sessions_log > /tmp/17_tel_sessions_log.sql
+mysqldump -u root utm53 17_tel_sessions_detail > /tmp/17_tel_sessions_detail.sql
+mysqldump -u root utm53 17_dhs_sessions_detail > /tmp/17_dhs_sessions_detail.sql
+mysqldump -u root utm53 17_dhs_sessions_log > /tmp/17_dhs_sessions_log.sql
+mysqldump -u root utm53 dhcp_leases_log_1127819295_1607625144 > /tmp/dhcp_leases_log_1127819295_1607625144.sql
+mysqldump -u root utm53 dhs_sessions_detail_1127819295_1607625144 > /tmp/dhs_sessions_detail_1127819295_1607625144.sql
+mysqldump -u root utm53 dhs_sessions_log_1127819295_1607625144 > /tmp/dhs_sessions_log_1127819295_1607625144.sql
+mysqldump -u root utm53 invoice_entry_1127819295_1607625144 > /tmp/invoice_entry_1127819295_1607625144.sql
+mysqldump -u root utm53 invoice_entry_details_1127819295_1607625144 > /tmp/invoice_entry_details_1127819295_1607625144.sql
+mysqldump -u root utm53 invoices_1127819295_1607625144 > /tmp/invoices_1127819295_1607625144.sql
+mysqldump -u root utm53 payment_transactions_1127819295_1607625144 > /tmp/payment_transactions_1127819295_1607625144.sql
+mysqldump -u root utm53 tel_sessions_detail_1127819295_1607625144 > /tmp/tel_sessions_detail_1127819295_1607625144.sql
+mysqldump -u root utm53 tel_sessions_log_1127819295_1607625144 > /tmp/tel_sessions_log_1127819295_1607625144.sql
+mysqldump -u root utm53 user_log_1127819295_1607625144 > /tmp/user_log_1127819295_1607625144.sql
+
+mysql -uroot UTM5H < /tmp/17_discount_transactions_all.sql
+mysql -uroot UTM5H < /tmp/17_discount_transactions_iptraffic_all.sql
+mysql -uroot UTM5H < /tmp/17_payment_transactions.sql
+mysql -uroot UTM5H < /tmp/17_tel_sessions_log.sql
+mysql -uroot UTM5H < /tmp/17_tel_sessions_detail.sql
+mysql -uroot UTM5H < /tmp/17_dhs_sessions_detail.sql
+mysql -uroot UTM5H < /tmp/17_dhs_sessions_log.sql
+mysql -uroot UTM5H < /tmp/dhcp_leases_log_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/dhs_sessions_detail_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/dhs_sessions_log_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/invoice_entry_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/invoice_entry_details_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/invoices_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/payment_transactions_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/tel_sessions_detail_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/tel_sessions_log_1127819295_1607625144.sql
+mysql -uroot UTM5H < /tmp/user_log_1127819295_1607625144.sql
