@@ -16,7 +16,7 @@
 
  Для 28:
  copy tftp://192.168.1.111/4600-28.cfg startup.cfg
- copy tftp://192.168.1.111/3900_4600/S4600-XXP(-P)-SI-10.9.11-vendor_7.0.3.5(R0241.0453)_nos.img nos.img
+ copy tftp://192.168.1.111/3900_4600/28/S4600-XXP(-P)-SI-10.9.11-vendor_7.0.3.5(R0241.0470)_nos.img nos.img
  
  reload
  
