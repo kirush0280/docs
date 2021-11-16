@@ -4,6 +4,7 @@
  enable
  conf t
  interface vlan 1
+ no ip dhcp-client enable
  ip address 192.168.1.20 255.255.0.0
  !
  exit
