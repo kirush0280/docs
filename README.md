@@ -12,7 +12,7 @@
  
  Для 10:
  copy tftp://192.168.1.111/4600-10.cfg startup.cfg
- copy tftp://192.168.1.111/3900_4600/4600_ven282_495.img nos.img
+ copy tftp://192.168.1.111/3900_4600/4600_ven2XX_495.img nos.img
  
 
  Для 28:
